@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Srdan_TNT>
+            <module>0.0.1</module>
+        </Srdan_TNT>
+    </modules>
+    <global>
+        <models>
+            <srdan_tnt>
+                <class>Srdan_TNT_Model</class>
+            </srdan_tnt>
+        </models>
+    </global>
+    <!-- Default configuration -->
+    <default>
+        <carriers>
+            <srdan_tnt>
+                <active>1</active>
+                <model>srdan_tnt/carrier</model>
+                <title>TNT</title>
+                <specificerrmsg>This shipping to this location is currently unavailable or it is faulty. Please check your address and post code.</specificerrmsg>
+                <showmethod>1</showmethod>
+                <sort_order>10</sort_order>
+                <sallowspecific>0</sallowspecific>
+            </srdan_tnt>
+        </carriers>
+    </default>
+</config>
